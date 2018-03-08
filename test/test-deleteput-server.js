@@ -23,7 +23,7 @@ describe('Delete Put', function(){
 			publishDate: 'yesterday'
 		};
 		return chai.request(app)
-			.get('/deleteput')
+			.get('/getpost')
 			.then(function(res){
 				updateData.id = res.body[0].id;
 				return chai.request(app)
@@ -31,16 +31,13 @@ describe('Delete Put', function(){
 					.send(updateData);
 			})
 			.then(function(res){
-				expect(res).to.have.status(200);
-				expect(res).to.be.json;
-				expect(res.body).to.be.a('object');
-				expect(res.body).to.deep.equal(updateData);
+				expect(res).to.have.status(204);
 			});
 	});
 
 	it('should delete items on DELETE', function(){
 		return chai.request(app)
-			.get('/deleteput')
+			.get('/getpost')
 			.then(function(res){
 				return chai.request(app)
 					.delete(`/deleteput/${res.body[0].id}`);

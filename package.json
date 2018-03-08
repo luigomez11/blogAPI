@@ -2,10 +2,10 @@
   "name": "blog",
   "version": "1.0.0",
   "description": "blog api",
-  "main": "\u0006server.js",
+  "main": "server.js",
   "scripts": {
-    "test": "mocha --exit",
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "mocha --exit"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +16,18 @@
   },
   "devDependencies": {
     "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
     "mocha": "^5.0.4"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luigomez11/blogAPI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luigomez11/blogAPI/issues"
+  },
+  "homepage": "https://github.com/luigomez11/blogAPI#readme"
 }
