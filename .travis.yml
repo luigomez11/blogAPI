@@ -3,8 +3,7 @@ language: node_js
 node_js: node
 deploy:
   provider: heroku
-  api_key:
-    secure: l7fOKwDzVDN3YVrLaBZCgp/KPNEVF/2WzqiLyf/X37yq9lQoXkfjsFC4HproLTntfZT++zEBdrjTeKa7QoyoFPLg06Om3La00MVMIxEWTCq3wvbxSoZeahgzjPfWQAN1EABc9cgg7XkxorI5aIhae6besWojR1UyFHJrVXPXiROGFlCtG7rFWUgr4mhycsONoG7aLiCIAlOjZl/aHsWQc8Pls+NvoWN/n8tBbTwLVnFQbxvzSTjj31g4SkTPQbAhjf3+9z8XeZXxDUHt9DUGdKLltvi+1GL7IlAkaRxfbBCA153R6jMnt4pipzqkRgYtMYPaLSqPUldde7mKVimLQcV316fhDbFoO5v2AyaQKETf5yANnaiQgiF9yOlv8n4fFubsIjb6ovjsD+QNsmiq3ug5EF2BEqKRcnTRwvor1+eyQaxMip0DJKxXL3xmGgHO0rUXwKdY2x2nXDSq/Pr/3G8MKXwDb3KSEOs+hfRemTVGhaxjMdJLZfcKuEZBfdh4jNLA+yn+M+ASd4bqJi1V83BLK7FkJnLOIoj47ZsXvXjVi5gd10FNsKi6EKyDhnYi91vlhqKKemF9kXFLXVnNoNn5FH2pFUaaQeE2Cj5PNJXUMuM9kruMGnR8WsXFYf9wlYegn+LVLgY6bc9i4ryqUcMBa23cw7+nfCxUYvh+3VE=
+  api_key: f2fe1f20-1ab4-4dbf-a32b-8aecb13d04ce
   app: powerful-crag-64781
   on:
     repo: luigomez11/blogAPI
